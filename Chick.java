@@ -1,4 +1,19 @@
-class Chick //implements Animal 
+class Chick implements Animal
 {     
-     //your code here
+     private String myType, mySound;
+     public Chick()
+     {
+       myType = "Chick";
+       mySound = "cluck!";
+     }
+     
+     public String getType()
+     {
+       return myType;
+     }
+     
+     public String getSound()
+     {
+       return mySound;
+     }
 }
