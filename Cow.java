@@ -3,8 +3,8 @@ class Cow implements Animal
      private String myType, mySound;
      public Cow()
      {
-       myType = "cow";
-       mySound = "Mooooooooooo!"
+       myType = "Cow";
+       mySound = "mooooooooooo!";
      }
      
      public String getType()
